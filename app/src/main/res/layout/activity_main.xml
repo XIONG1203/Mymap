@@ -12,7 +12,7 @@
         android:clickable="true"
         android:layout_alignParentTop="true" />
     <Button
-        android:layout_width="fill_parent"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:id="@+id/btn1"
         android:text="普通"

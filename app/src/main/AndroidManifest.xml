@@ -39,12 +39,12 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@android:style/Theme.Black.NoTitleBar"  >
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="4X2FEoWqy1Eo20t0DQhERa77" />
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name" >
-            <meta-data
-                android:name="com.baidu.lbsapi.API_KEY"
-                android:value="4X2FEoWqy1Eo20t0DQhERa77" />
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

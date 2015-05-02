@@ -49,21 +49,23 @@ public class MainActivity extends Activity {
                 switch (locationMode){
                    case NORMAL:
                        mButton.setText("跟随");
-                       locationMode=LocationMode.FOLLOWING;
                        mBaiduMap.setMyLocationConfigeration(
                                new MyLocationConfiguration(locationMode,true,bitmapDescriptor));
+                       locationMode=LocationMode.FOLLOWING;
                        break;
                    case FOLLOWING:
                        mButton.setText("罗盘");
-                       locationMode=LocationMode.COMPASS;
                        mBaiduMap.setMyLocationConfigeration(
                                new MyLocationConfiguration(locationMode,true,bitmapDescriptor));
+                       locationMode=LocationMode.COMPASS;
                        break;
                    case COMPASS:
                        mButton.setText("普通");
-                       locationMode=LocationMode.NORMAL;
                        mBaiduMap.setMyLocationConfigeration(
                                new MyLocationConfiguration(locationMode,true,bitmapDescriptor));
+                       locationMode=LocationMode.NORMAL;
+                       break;
+                   default:
                        break;
                 }
             }
