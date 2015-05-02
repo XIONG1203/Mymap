@@ -8,14 +8,14 @@
     <com.baidu.mapapi.map.MapView
         android:id="@+id/bmapView"
         android:layout_width="fill_parent"
-        android:layout_height="500dp"
+        android:layout_height="fill_parent"
         android:clickable="true"
         android:layout_alignParentTop="true" />
-    <TextView
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:id="@+id/tv"
-        android:hint="loding>>>"
-        android:layout_below="@+id/bmapView" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn1"
+        android:text="普通"
+        android:layout_alignParentBottom="true"/>
 
 </RelativeLayout>
